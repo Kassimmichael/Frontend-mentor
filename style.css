@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+
+* {
+  /* padding: 0; */
+  /* margin: 0; */
+  box-sizing: border-box;
+  font-family: 'League Spartan', Arial;
+}
+
+body {
+  background-color: hsl(180, 52%, 96%);
+  font-size: 15px;
+  padding: 70px 10%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 70px; */
+  align-items: center;
+  /* gap: 20px; */
+}
+
+nav {
+  background-color: hsl(180, 29%, 50%);
+  /* height: 100px; */
+  margin-top: 0;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 5px;
+}
+
+.container {
+  display: flex;
+  /* flex: 1; */
+  flex-wrap: wrap;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  gap: 30px;
+  width: 100%;
+  box-shadow: 0 10px 50px .1px #5ba4a4;
+} 
+
+/* .container :nth-child(1) {
+  border-left: 1px solid black;
+} */
+
+.container-logo {
+  padding-top: 4px;
+  margin-right: 0;
+  /* border-bottom: 20px; */
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 13px;
+  margin-left: 0;
+  width: 80%;
+  flex-wrap: wrap;
+  
+}
+
+.sub-sub-container1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+  /* width: 200px; */
+}
+
+.sub-sub-container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first-list {
+  display: flex;
+  font-size: 11px;
+  font-weight: 700;
+  flex-wrap: wrap;
+}
+
+.first-list :first-child {
+  color: #5ba4a4;
+  padding: 4px;
+}
+
+.first-list :nth-child(2) {
+  background-color: hsl(180, 29%, 50%);
+  color: #fff;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.first-list :nth-child(3) {
+  background-color: black;
+  color: #fff;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.second-list {
+  font-weight: 750;
+  color: hsl(180, 14%, 20%);
+}
+
+.third-list {
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  color: #7b8e8e;
+  justify-content: space-between;
+}
+
+.sub-sub-container2 #sub-2-list {
+  display: flex;
+  align-items: center;
+  color: #5ba4a4;
+  font-weight: 700;
+  flex-wrap: wrap;
+}
+
+#sub-2-list li {
+  margin-right: 20px; 
+  font-size: 13px;
+  background-color: hsl(180, 31%, 95%);
+  padding: 5px;
+  border-radius: 5px;
+}
